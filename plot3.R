@@ -1,5 +1,7 @@
 # please, set your working directory appropriately before running the code
-setwd("/Users/oracle/datasciencecoursera/ExData_Plotting1/ExData_Plotting1")
+#setwd("/Users/oracle/datasciencecoursera/ExData_Plotting1/ExData_Plotting1")
+setwd("~/ExData_Plotting1")
+
 library(sqldf)
 data <- read.csv.sql("household_power_consumption.txt", header=TRUE, sep=";", sql="Select * from file where Date = '1/2/2007' OR Date = '2/2/2007'")
 

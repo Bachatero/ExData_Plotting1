@@ -1,4 +1,5 @@
-setwd("/Users/oracle/datasciencecoursera/ExData_Plotting1/ExData_Plotting1")
+#setwd("/Users/oracle/datasciencecoursera/ExData_Plotting1/ExData_Plotting1")
+setwd("~/ExData_Plotting1")
 #fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 #download.file(fileUrl,destfile="./power_consumption.zip", method="curl")
 library(sqldf)
