@@ -8,7 +8,7 @@ data <- read.csv.sql("household_power_consumption.txt", header=TRUE, sep=";", sq
 #x <- paste(dates, times)
 #strptime(x, "%m/%d/%y %H:%M:%S")
 
-# paste date and time columns and convert character string into posix date/time format
+# combine date & time columns into one  and convert it into posix date/time value
 datetime<-strptime(paste(data$Date,data$Time), "%d/%m/%Y %H:%M:%S")
 png(filename = "plot3.png", width = 480, height = 480,units = "px", pointsize = 12, bg = "white")
 plot(datetime, data$Sub_metering_1, type="n", xlab="", ylab="Energy sub metering")

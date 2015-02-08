@@ -12,7 +12,7 @@ data <- read.csv.sql("household_power_consumption.txt", header=TRUE, sep=";", sq
 #strptime(x, "%m/%d/%y %H:%M:%S")
 
 #datetime<- as.POSIXlt(paste(as.Date(data$Date, format="%d/%m/%Y"), data$Time, sep=" "))
-# paste date and time columns and convert character string into posix date/time format
+# combine date & time columns into one  and convert it into posix date/time value
 datetime<-strptime(paste(data$Date,data$Time), "%d/%m/%Y %H:%M:%S")
 #class(datetime)
 png(filename = "plot2.png", width = 480, height = 480,units = "px", pointsize = 12, bg = "white")
