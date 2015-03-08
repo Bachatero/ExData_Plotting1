@@ -1,3 +1,4 @@
+#plot4
 # please, set your working directory appropriately before running the code
 #setwd("/Users/oracle/datasciencecoursera/ExData_Plotting1/ExData_Plotting1")
 setwd("~/ExData_Plotting1")
