@@ -1,6 +1,5 @@
-#plot4
-# please, set your working directory appropriately before running the code
-#setwd("/Users/oracle/datasciencecoursera/ExData_Plotting1/ExData_Plotting1")
+# plot4
+# please, set your working directory appropriately before running the code and make sure your source file is ready in your working directory or download&unzip it there
 setwd("~/ExData_Plotting1")
 
 library(sqldf)
